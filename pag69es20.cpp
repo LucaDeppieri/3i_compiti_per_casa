@@ -50,7 +50,7 @@ int main (void){
 		resto = dividendo % divisore;
 		if (resto == 1){
 			
-			//Non avviene niente
+			// Non avviene niente
 			
 		}
 		else{

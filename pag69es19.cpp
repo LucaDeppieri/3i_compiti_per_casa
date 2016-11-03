@@ -22,7 +22,7 @@ int main (void){
 	cout << "                                                " << endl;
 	system ("PAUSE");
 	
-	for (int N = 0; N <= 200; N++){
+	for (int N = 0; N <= 100; N++){
 		
 		dividendo = N;
 		quoziente = dividendo / divisore;

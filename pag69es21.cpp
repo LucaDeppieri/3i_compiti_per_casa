@@ -10,30 +10,30 @@ int main (void){
 	
 	partenza:
 	int N;
-    cout << "*****************************************************" << endl;
+	cout << "*********************************************************" << endl;
+	cout << "*                                                       *" << endl;
+	cout << "* Quanti numeri vuoi immettere nel programma (N < 100)? *" << endl;
+	cout << "*                                                       *" << endl;
+	cout << "*********************************************************" << endl;
 	cout << "                                                     " << endl;
-	cout << "Quanti numeri vuoi immettere nel programma (N < 100)?" << endl;
-	cout << "                                                     " << endl;
-    cout << "*****************************************************" << endl;
-    cout << "                                                     " << endl;
-    inizio:
+	inizio:
 	cin >> N;
-    int ctr = 1;
-    int num, somma_disp = 0;
-    int dividendo;
+	int ctr = 1;
+	int num, somma_disp = 0;
+	int dividendo;
 	int divisore = 2;
 	int quoziente, resto;
 	char continuo;
 
 	if (N >= 100){
 		
-		cout << "*****************************************************" << endl;
-		cout << "                                                     " << endl;
-		cout << "Errore, inserisci un numero < 100 !" << endl;
-		cout << "                                                     " << endl;
-    	cout << "*****************************************************" << endl;
-    	cout << "                                                     " << endl;
-		goto inizio;
+	cout << "***************************************" << endl;
+	cout << "*                                     *" << endl;
+	cout << "* Errore, inserisci un numero < 100 ! *" << endl;
+	cout << "*                                     *" << endl;
+    	cout << "***************************************" << endl;
+    	cout << "                                       " << endl;
+	goto inizio;
 		
 	}
 	
@@ -75,9 +75,9 @@ int main (void){
 	cout << "                                                     " << endl;
 	cout << "Risultato finale somma numeri dispari = " << somma_disp << endl;
 	cout << "                                                     " << endl;
-    cout << "*****************************************************" << endl;
-    cout << "                                                     " << endl;
-    cout << "                                                     " << endl;
+	cout << "*****************************************************" << endl;
+	cout << "                                                     " << endl;
+	cout << "                                                     " << endl;
 	
 	cout << "Vuoi ricominciare il programma? (s / n)" << endl;
 	cin >> continuo;

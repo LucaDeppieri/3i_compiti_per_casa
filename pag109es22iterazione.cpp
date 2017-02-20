@@ -13,8 +13,13 @@ int main (){
 	int resto;
 	int ncifre;
 	
+	inizio:
 	cout << "Inserisci un numero intero di cui vuoi invertire le cifre: ";
 	cin >> numero;
+	if (numero < 0){
+		cout << "ERRORE, inserire un numero positivo!!!" << endl;
+		goto inizio;
+	}
 	cout << endl;
 	ncifre = log10(numero)+1;
 	cout << "L'inverso di " << numero << " e' ";
